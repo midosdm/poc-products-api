@@ -1,0 +1,175 @@
+INSERT INTO PRODUCTS (
+    name,
+    code,
+    description,
+    image,
+    price,
+    category,
+    quantity,
+    internal_reference,
+    shell_id,
+    inventory_status,
+    rating,
+    created_at,
+    updated_at
+) VALUES
+
+      (
+          'Wireless Mouse',
+          'PRD-1001',
+          'Ergonomic wireless mouse with adjustable DPI.',
+          'https://images.unsplash.com/photo-1527814050087-3793815479db',
+          29.99,
+          'Electronics',
+          150,
+          'INT-REF-001',
+          101,
+          'INSTOCK',
+          4,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          'Mechanical Keyboard',
+          'PRD-1002',
+          'RGB mechanical keyboard with blue switches.',
+          'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae',
+          89.50,
+          'Electronics',
+          80,
+          'INT-REF-002',
+          102,
+          'LOWSTOCK',
+          5,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          'Gaming Headset',
+          'PRD-1003',
+          'Surround sound gaming headset with microphone.',
+          'https://images.unsplash.com/photo-1505740420928-5e560c06d30e',
+          59.99,
+          'Audio',
+          45,
+          'INT-REF-003',
+          103,
+          'INSTOCK',
+          4,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          '4K Monitor',
+          'PRD-1004',
+          '27-inch 4K UHD monitor with HDR support.',
+          'https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc',
+          329.99,
+          'Displays',
+          25,
+          'INT-REF-004',
+          104,
+          'LOWSTOCK',
+          5,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          'USB-C Docking Station',
+          'PRD-1005',
+          'Multi-port USB-C docking station for laptops.',
+          'https://images.unsplash.com/photo-1587829741301-dc798b83add3',
+          119.00,
+          'Accessories',
+          60,
+          'INT-REF-005',
+          105,
+          'INSTOCK',
+          4,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          'Bluetooth Speaker',
+          'PRD-1006',
+          'Portable waterproof Bluetooth speaker.',
+          'https://images.unsplash.com/photo-1507878866276-a947ef722fee',
+          49.90,
+          'Audio',
+          120,
+          'INT-REF-006',
+          106,
+          'INSTOCK',
+          4,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          'Smart Watch',
+          'PRD-1007',
+          'Fitness tracking smartwatch with heart rate monitor.',
+          'https://images.unsplash.com/photo-1523275335684-37898b6baf30',
+          199.99,
+          'Wearables',
+          70,
+          'INT-REF-007',
+          107,
+          'INSTOCK',
+          5,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          'Laptop Stand',
+          'PRD-1008',
+          'Adjustable aluminum laptop stand.',
+          'https://images.unsplash.com/photo-1517336714739-489689fd1ca8',
+          39.99,
+          'Office',
+          95,
+          'INT-REF-008',
+          108,
+          'INSTOCK',
+          4,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          'External SSD 1TB',
+          'PRD-1009',
+          'High-speed portable external SSD drive.',
+          'https://images.unsplash.com/photo-1593642632823-8f785ba67e45',
+          149.99,
+          'Storage',
+          40,
+          'INT-REF-009',
+          109,
+          'LOWSTOCK',
+          5,
+          NOW(),
+          NOW()
+      ),
+
+      (
+          'Webcam HD',
+          'PRD-1010',
+          '1080p HD webcam for video conferencing.',
+          'https://images.unsplash.com/photo-1587614382346-4ec70e388b28',
+          69.99,
+          'Accessories',
+          110,
+          'INT-REF-010',
+          110,
+          'INSTOCK',
+          4,
+          NOW(),
+          NOW()
+      );

@@ -1,0 +1,16 @@
+name: poc-products-api
+services:
+  postgres:
+    image: postgres:16-alpine
+    networks:
+      - poc-docker-network
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=poc-products-api
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=poc_products_db
+
+networks:
+  poc-docker-network:
+    name: poc-docker-network

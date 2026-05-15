@@ -1,3 +1,21 @@
 spring:
   application:
     name: poc-products-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/poc_products_db
+    username: poc-products-api
+    password: password
+    hikari:
+      minimum-idle: 1
+      maximum-pool-size: 3
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+  sql:
+    init:
+      data-locations: classpath:initial-data.sql
+      mode: always
+poc-products-api:
+  jwtSecret: ${JWT_SECRET}
